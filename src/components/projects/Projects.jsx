@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import './Projects.scss';
 import RepositoryList from './RepositoryList';
 import github from '../util/github';
@@ -13,13 +13,13 @@ const Projects = () => {
   const [eventsLoading, setEventsLoading] = useState(true);
 
   useEffect(() => {
-    repositoriesLoading && github.getRepositories().then((res) => {
-      addRepositories(res.data);
-    }).then(() => setRepositoriesLoading(false));
-    
-    eventsLoading && github.getCommits().then((res) => {
-      addEvents(res.data);
-    }).then(() => setEventsLoading(false));
+    repositoriesLoading && github.getRepositories()
+      .then((res) => { addRepositories(res); })
+      .then(() => setRepositoriesLoading(false));
+
+    eventsLoading && github.getCommits()
+      .then((res) => { addEvents(res); })
+      .then(() => setEventsLoading(false));
   });
 
   return (

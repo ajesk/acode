@@ -9,7 +9,7 @@ const RepositoryList = ({ repositories }) => {
 
       {repositories.sort((a, b) => Date.parse(b.updated_at) - Date.parse(a.updated_at))
         .map(repo =>
-          <Repository repo={repo} />
+          <Repository key={repo.id} repo={repo} />
         )}
     </div>
   );

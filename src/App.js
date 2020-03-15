@@ -15,7 +15,8 @@ const App = () => {
     { name: '', component: <Landing /> },
     { name: 'About', component: <About />},
     { name: 'Projects', component: <Projects /> },
-    { name: 'Resume', component: 'ok' },
+    { name: 'Resume', component: 'resume goes here' },
+    { name: 'Contact', component: 'contact goes here' },
   ]
 
   return (

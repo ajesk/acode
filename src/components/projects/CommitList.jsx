@@ -15,7 +15,7 @@ const CommitList = ({ commits }) => {
               return commit;
             })
           ).map((commit) =>
-            <Commit commit={commit} />
+            <Commit key={commit.sha} commit={commit} />
           )
       }
     </div>
