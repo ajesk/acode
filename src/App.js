@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/header/Header';
+import './App.scss';
+import Content from './components/content/Content';
+import Projects from './components/projects/Projects';
+import Footer from './components/footer/Footer';
+import About from './components/about/About';
+import Landing from './components/landing/Landing';
 
-function App() {
+
+const App = () => {
+  const [page, setPage] = useState(0);
+  const changePage = (i) => setPage(i);
+  const pages = [
+    { name: '', component: <Landing /> },
+    { name: 'About', component: <About />},
+    { name: 'Projects', component: <Projects /> },
+    { name: 'Resume', component: 'ok' },
+  ]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header setPage={changePage} pages={pages} />
+      <Content page={pages[page]} />
+      <Footer />
     </div>
   );
 }

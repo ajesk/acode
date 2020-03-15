@@ -1,0 +1,22 @@
+.repo {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1 0 auto;
+
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 0.5em;
+  margin: 0.1em;
+}
+
+.repo-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.repo-left, .repo-right {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
