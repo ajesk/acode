@@ -1,4 +1,11 @@
 .app {
   display: flex;
   flex-direction: column;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  
+}
+
+html, body, #root, .app {
+  height: 100%;
 }

@@ -4,13 +4,13 @@ import './Content.scss';
 const Content = ({ page }) => {
   return (
     <div className="content">
-      <h1>
-      {page.name}
-      </h1>
-      <div>
-      {page.component}
+        <h1>
+          {page.name}
+        </h1>
+        <div>
+          {page.component}
+        </div>
       </div>
-    </div>
   );
 }
 

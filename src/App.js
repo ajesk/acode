@@ -12,17 +12,17 @@ const App = () => {
   const [page, setPage] = useState(0);
   const changePage = (i) => setPage(i);
   const pages = [
-    { name: '', component: <Landing /> },
-    { name: 'About', component: <About />},
-    { name: 'Projects', component: <Projects /> },
-    { name: 'Resume', component: 'resume goes here' },
-    { name: 'Contact', component: 'contact goes here' },
+    { id: 0, name: '', component: <Landing /> },
+    { id: 1, name: 'About', component: <About />},
+    { id: 2, name: 'Projects', component: <Projects /> },
+    { id: 3, name: 'Resume', component: 'resume goes here' },
+    { id: 4, name: 'Contact', component: 'contact goes here' },
   ]
 
   return (
     <div className="app">
       <Header setPage={changePage} pages={pages} />
-      <Content page={pages[page]} />
+      <Content page={pages.find(pg => pg.id === page)} />
       <Footer />
     </div>
   );

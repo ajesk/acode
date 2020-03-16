@@ -1,17 +1,22 @@
 .footer {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-end;
   align-content: center;
 
-  flex: 0 1 auto;
+  flex-shrink: 0;
 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-
-  height: 3em;
   background-color: #343a40;
   color: white;
+}
+
+.footer-icon {
+  height: 3em;
+  width: 3em;
+
+  padding: 0.5em;
+
+  a, img {
+    height: 100%;
+  }
 }
