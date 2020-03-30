@@ -7,7 +7,7 @@ const Repository = ({ repo }) => {
       <a href={repo.html_url}>{repo.name}</a>
       <div className="repo-details">
         <div className="repo-left">
-          <div>Language:</div>
+          <div>{repo.language ? 'Language:' : ''}</div>
           <div>Last Updated:</div>
         </div>
         <div className="repo-right">

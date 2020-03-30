@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import Header from './components/header/Header';
 import './App.scss';
+import Header from './components/header/Header';
 import Content from './components/content/Content';
 import Projects from './components/projects/Projects';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
 import Landing from './components/landing/Landing';
+import Resume from './components/resume/Resume';
 
 
 const App = () => {
@@ -13,11 +14,12 @@ const App = () => {
   const changePage = (i) => setPage(i);
   const pages = [
     { id: 0, name: '', component: <Landing /> },
-    { id: 1, name: 'About', component: <About />},
+    { id: 1, name: 'About', component: <About /> },
     { id: 2, name: 'Projects', component: <Projects /> },
-    { id: 3, name: 'Resume', component: 'resume goes here' },
-    { id: 4, name: 'Contact', component: 'contact goes here' },
+    { id: 3, name: 'Resume', component: <Resume /> },
+    { id: 4, name: 'Contact', component: <div>contact goes here</div> },
   ]
+
 
   return (
     <div className="app">

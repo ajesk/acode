@@ -1,16 +1,31 @@
 import React from 'react';
+import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import './Content.scss';
 
 const Content = ({ page }) => {
   return (
     <div className="content">
-        <h1>
-          {page.name}
-        </h1>
-        <div>
+      <SwitchTransition mode="out-in">
+        <CSSTransition
+          key={page.name}
+          timeout={500}
+          classNames="page"
+        >
+          <h1>
+            {page.name}
+          </h1>
+        </CSSTransition>
+      </SwitchTransition>
+      <SwitchTransition mode="out-in">
+        <CSSTransition
+          key={page.name}
+          timeout={500}
+          classNames="page"
+        >
           {page.component}
-        </div>
-      </div>
+        </CSSTransition>
+      </SwitchTransition>
+    </div>
   );
 }
 
