@@ -4,14 +4,14 @@ import './Header.scss';
 const Header = ({ setPage, pages }) => {
   return (
     <div className="header">
-      <div className="header-name" onClick={() => setPage(0)}>acode.io</div>
+      <button className="header-name" onClick={() => setPage(0)}>Aaron Jeskie</button>
       <div className="vr" />
       {
         pages.filter(page => page.name !== '')
           .map((page, i) =>
-            <div key={i} className="page-tab" onClick={() => setPage(page.id)}>
+            <button key={i} className="page-tab" onClick={() => setPage(page.id)}>
               {page.name}
-            </div>)
+            </button>)
       }
     </div>
   );

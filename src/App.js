@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 import Header from './components/header/Header';
 import Content from './components/content/Content';
+import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
@@ -17,7 +18,7 @@ const App = () => {
     { id: 1, name: 'About', component: <About /> },
     { id: 2, name: 'Projects', component: <Projects /> },
     { id: 3, name: 'Resume', component: <Resume /> },
-    { id: 4, name: 'Contact', component: <div>contact goes here</div> },
+    { id: 4, name: 'Contact', component: <Contact /> },
   ]
 
 

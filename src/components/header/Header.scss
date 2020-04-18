@@ -1,11 +1,19 @@
+$background-color: #343a40;
+$text-color: white;
+
 .header {
   display: flex;
   align-content: center;
 
   flex: 0 1;
 
-  background-color: #343a40;
-  color: white;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+button:focus {
+  color: invert($background-color);
+  background-color: invert($text-color);
 }
 
 .header-name {  
@@ -14,8 +22,10 @@
   align-items: center;
   
   font-weight: bold;
-  font-size: large;
-  cursor: pointer;
+  font-size: larger;
+  color: inherit;
+  border: 0;
+  background-color: inherit;
   margin: 0.5em;
 }
 
@@ -26,9 +36,13 @@
 .page-tab {
   flex: 0 1 auto;
 
+  border: 0;
   border-right: 1px solid;
   padding: 0.5em;
   margin: 0.25em 0;
 
-  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  color: $text-color;
+  background-color: $background-color;
 }
