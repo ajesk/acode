@@ -20,22 +20,19 @@ Object {
           />
           <ul>
             <li>
-              He is a developer
+              He is a full stack developer with experience ranging from embedded architecture to ui development
             </li>
             <li>
-              He likes to cook
+              He loves to cook, especially when trying new meals
             </li>
             <li>
-              He enjoys a good glass of wine or whiskey
+              He enjoys a good glass of wine or whiskey, mainly when pairing with the food he cooks
             </li>
             <li>
-              He has 2 neurotic cats (Vanilla & Crash)
+              He has two cats (Vanilla & Crash) and one dog (Jace)
             </li>
             <li>
-              Has 1 hyper dog (Jace)
-            </li>
-            <li>
-              He has 1 loving fiancè (to be married soon)
+              He has a loving fiancè (to be married soon)
             </li>
           </ul>
         </div>
@@ -58,22 +55,19 @@ Object {
         />
         <ul>
           <li>
-            He is a developer
+            He is a full stack developer with experience ranging from embedded architecture to ui development
           </li>
           <li>
-            He likes to cook
+            He loves to cook, especially when trying new meals
           </li>
           <li>
-            He enjoys a good glass of wine or whiskey
+            He enjoys a good glass of wine or whiskey, mainly when pairing with the food he cooks
           </li>
           <li>
-            He has 2 neurotic cats (Vanilla & Crash)
+            He has two cats (Vanilla & Crash) and one dog (Jace)
           </li>
           <li>
-            Has 1 hyper dog (Jace)
-          </li>
-          <li>
-            He has 1 loving fiancè (to be married soon)
+            He has a loving fiancè (to be married soon)
           </li>
         </ul>
       </div>

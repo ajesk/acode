@@ -8,12 +8,11 @@ const About = () => {
       <div className="about-detail">
         <img src="" alt="aaron profile"></img>
         <ul>
-          <li>He is a developer</li>
-          <li>He likes to cook</li>
-          <li>He enjoys a good glass of wine or whiskey</li>
-          <li>He has 2 neurotic cats (Vanilla & Crash)</li>
-          <li>Has 1 hyper dog (Jace)</li>
-          <li>He has 1 loving fiancè (to be married soon)</li>
+          <li>He is a full stack developer with experience ranging from embedded architecture to ui development</li>
+          <li>He loves to cook, especially when trying new meals</li>
+          <li>He enjoys a good glass of wine or whiskey, mainly when pairing with the food he cooks</li>
+          <li>He has two cats (Vanilla & Crash) and one dog (Jace)</li>
+          <li>He has a loving fiancè (to be married soon)</li>
         </ul>
       </div>
     </div>

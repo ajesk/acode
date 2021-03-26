@@ -19,6 +19,7 @@ const App = () => {
     { id: 2, name: 'Projects', component: <Projects /> },
     { id: 3, name: 'Resume', component: <Resume /> },
     { id: 4, name: 'Contact', component: <Contact /> },
+    // { id: 5, name: 'Media Consumed', component: <Media /> },
   ]
 
 
