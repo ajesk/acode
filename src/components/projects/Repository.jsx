@@ -4,7 +4,7 @@ import './Repository.scss';
 const Repository = ({ repo }) => {
   return (
     <div className="repo" key={repo.id}>
-      <a href={repo.html_url}>{repo.name}</a>
+      <a className="repo-link" href={repo.html_url}>{repo.name}</a>
       <div className="repo-details">
         <div className="repo-left">
           <div>{repo.language ? 'Language:' : ''}</div>

@@ -5,9 +5,15 @@
   flex: 1 0 auto;
 
   border: 1px solid #ccc;
-  border-radius: 16px;
-  padding: 0.5em;
-  margin: 0.25em;
+  border-radius: 1em;
+  box-shadow: 2px 2px 1px 0 #ccc;
+  padding: 1em;
+  margin: 1em 1em 1em 0;
+
+  .repo-link {
+    font-weight: bolder;
+    font-size: 18px;
+  }
 }
 
 .repo-details {
@@ -16,8 +22,14 @@
   justify-content: space-between;
 }
 
-.repo-left, .repo-right {
+.repo-left {
   display: flex;
   flex-direction: column;
-  padding: 0.25em;
+
+  padding-right: 0.5em;
+}
+
+.repo-right {
+  display: flex;
+  flex-direction: column;
 }

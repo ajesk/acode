@@ -1,30 +1,31 @@
 .commit {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   flex: 1 0 auto;
 
   border: 1px solid #ccc;
-  border-radius: 16px;
-  padding: 0.5em;
-  margin: 0.25em;
-}
+  border-radius: 1em;
+  box-shadow: 2px 2px 1px 0 #ccc;
+  padding: 1em;
+  margin: 1em 1em 1em 0;
 
-.commit-top {
-  display: flex;
-  flex-direction: row;
-}
+  .commit-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-.commit-bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+    flex: 1 0 auto;
+  }
 
-  padding-top: 0.5em;
-}
+  .commit-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 
-.commit-detail {
-  padding: 0 1em;
+    flex: 0 1 auto;
+  }
 }
 
 .sha {
