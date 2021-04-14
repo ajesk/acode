@@ -1,10 +1,7 @@
 .about {
   display: flex;
-  flex-direction: column;
-}
-
-.about-detail {
-  display: flex;
   flex-direction: row;
-  align-items: space-between;
+  align-content: space-between;
+  justify-content: center;
+  max-height: 50%;
 }
