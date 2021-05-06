@@ -8,8 +8,7 @@ const Landing = () => {
         Simple === better
       </h1>
       <p>
-        I could put something more on this page, but I would only be
-        repeating content coming from other pages.
+        Nothing is better than simple easy to understand code/architecture
       </p>
     </div>
   );
