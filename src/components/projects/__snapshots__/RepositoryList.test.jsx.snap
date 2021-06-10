@@ -15,6 +15,7 @@ Object {
           class="repo"
         >
           <a
+            class="repo-link"
             href="fackall"
           >
             adsfn,vxmz,mnlknf dsfsdf
@@ -48,6 +49,7 @@ Object {
           class="repo"
         >
           <a
+            class="repo-link"
             href="222"
           >
             2222
@@ -91,6 +93,7 @@ Object {
         class="repo"
       >
         <a
+          class="repo-link"
           href="fackall"
         >
           adsfn,vxmz,mnlknf dsfsdf
@@ -124,6 +127,7 @@ Object {
         class="repo"
       >
         <a
+          class="repo-link"
           href="222"
         >
           2222
