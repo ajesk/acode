@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.daa1343d.chunk.css",
-    "main.js": "/static/js/main.f2601f2c.chunk.js",
-    "main.js.map": "/static/js/main.f2601f2c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.64f155f8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.64f155f8.js.map",
-    "static/js/2.287de168.chunk.js": "/static/js/2.287de168.chunk.js",
-    "static/js/2.287de168.chunk.js.map": "/static/js/2.287de168.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cc617c946ef0eea43586c8f8b00c3f48.js": "/precache-manifest.cc617c946ef0eea43586c8f8b00c3f48.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.daa1343d.chunk.css.map": "/static/css/main.daa1343d.chunk.css.map",
-    "static/js/2.287de168.chunk.js.LICENSE.txt": "/static/js/2.287de168.chunk.js.LICENSE.txt",
-    "static/media/ajeskie-resume.pdf": "/static/media/ajeskie-resume.28216117.pdf",
-    "static/media/me.jpeg": "/static/media/me.fdd32094.jpeg"
+    "main.css": "/acode/static/css/main.daa1343d.chunk.css",
+    "main.js": "/acode/static/js/main.92ce0738.chunk.js",
+    "main.js.map": "/acode/static/js/main.92ce0738.chunk.js.map",
+    "runtime-main.js": "/acode/static/js/runtime-main.3754c997.js",
+    "runtime-main.js.map": "/acode/static/js/runtime-main.3754c997.js.map",
+    "static/js/2.287de168.chunk.js": "/acode/static/js/2.287de168.chunk.js",
+    "static/js/2.287de168.chunk.js.map": "/acode/static/js/2.287de168.chunk.js.map",
+    "index.html": "/acode/index.html",
+    "precache-manifest.ee90685241b072dc5e6cc20e81941b04.js": "/acode/precache-manifest.ee90685241b072dc5e6cc20e81941b04.js",
+    "service-worker.js": "/acode/service-worker.js",
+    "static/css/main.daa1343d.chunk.css.map": "/acode/static/css/main.daa1343d.chunk.css.map",
+    "static/js/2.287de168.chunk.js.LICENSE.txt": "/acode/static/js/2.287de168.chunk.js.LICENSE.txt",
+    "static/media/ajeskie-resume.pdf": "/acode/static/media/ajeskie-resume.28216117.pdf",
+    "static/media/me.jpeg": "/acode/static/media/me.fdd32094.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.64f155f8.js",
+    "static/js/runtime-main.3754c997.js",
     "static/js/2.287de168.chunk.js",
     "static/css/main.daa1343d.chunk.css",
-    "static/js/main.f2601f2c.chunk.js"
+    "static/js/main.92ce0738.chunk.js"
   ]
 }
