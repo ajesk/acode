@@ -12,7 +12,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-icon">
-        <a href="https://www.linkedin.com/in/aaron-jeskie-b1350768/">
+        <a href="https://www.linkedin.com/in/aaronjeskie/">
           <img alt="linkedin-link" src={linkedin} />
         </a>
       </div>
