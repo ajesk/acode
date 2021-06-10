@@ -1,7 +1,8 @@
-# acode.io
-Just a personal site for showing off things about myself. If you would like to use this as a template just make sure to leave an easter egg somewhere stating the source of your portfolio.
+# aaronjeskie.com
+Just a simple personal site for showing off things about myself. Mostly a portfolio with some other detailed content on it.
 
 ## Scripts that mean something to working on this
-### `yarn start`
-### `yarn test`
-### `yarn build`
+- yarn start - run the app locally
+- yarn test - run the tests
+- yarn build - build a deployment for the app
+- yarn deploy - deploy the app using gh-pages
