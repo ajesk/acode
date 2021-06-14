@@ -11,9 +11,11 @@ const Content = ({ page }) => {
           timeout={500}
           classNames="page"
         >
-          <h1>
-            {page.name}
-          </h1>
+          <div>
+            <h1>
+              {page.name}
+            </h1>
+          </div>
         </CSSTransition>
       </SwitchTransition>
       <SwitchTransition mode="out-in">

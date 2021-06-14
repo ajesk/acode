@@ -1,7 +1,33 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-top: 0.25px solid black;
+  padding: 1em;
+}
+
+img {
+  height: 300px;
+}
+
+.selected {
+  background-color: lightgray;
+}
+
 .about {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
-  justify-content: center;
-  max-height: 50%;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+
+  .about-left {
+    flex: 0 0 auto;
+    margin-right: 2em;
+  }
+
+  .about-right {
+    flex: 5;
+  }
 }
