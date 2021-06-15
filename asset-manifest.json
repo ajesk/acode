@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.900a9126.chunk.css",
-    "main.js": "/static/js/main.03b56064.chunk.js",
-    "main.js.map": "/static/js/main.03b56064.chunk.js.map",
+    "main.css": "/static/css/main.c5ef552f.chunk.css",
+    "main.js": "/static/js/main.0b82910f.chunk.js",
+    "main.js.map": "/static/js/main.0b82910f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.64f155f8.js",
     "runtime-main.js.map": "/static/js/runtime-main.64f155f8.js.map",
-    "static/js/2.dc7101a0.chunk.js": "/static/js/2.dc7101a0.chunk.js",
-    "static/js/2.dc7101a0.chunk.js.map": "/static/js/2.dc7101a0.chunk.js.map",
+    "static/js/2.38d5f867.chunk.js": "/static/js/2.38d5f867.chunk.js",
+    "static/js/2.38d5f867.chunk.js.map": "/static/js/2.38d5f867.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.49af3f0b8d506e8adc607b0f3b3ae2d4.js": "/precache-manifest.49af3f0b8d506e8adc607b0f3b3ae2d4.js",
+    "precache-manifest.eb604eb42e96c771005c4ca535361db4.js": "/precache-manifest.eb604eb42e96c771005c4ca535361db4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.900a9126.chunk.css.map": "/static/css/main.900a9126.chunk.css.map",
-    "static/js/2.dc7101a0.chunk.js.LICENSE.txt": "/static/js/2.dc7101a0.chunk.js.LICENSE.txt",
+    "static/css/main.c5ef552f.chunk.css.map": "/static/css/main.c5ef552f.chunk.css.map",
+    "static/js/2.38d5f867.chunk.js.LICENSE.txt": "/static/js/2.38d5f867.chunk.js.LICENSE.txt",
     "static/media/ajeskie-resume.pdf": "/static/media/ajeskie-resume.28216117.pdf",
     "static/media/cooking.jpeg": "/static/media/cooking.412d1690.jpeg",
     "static/media/keyboard_whitefox.jpeg": "/static/media/keyboard_whitefox.eadedb1f.jpeg",
+    "static/media/keyboards_building.jpg": "/static/media/keyboards_building.c7c9b4ae.jpg",
+    "static/media/keyboards_building_2.jpg": "/static/media/keyboards_building_2.3e7b87bd.jpg",
     "static/media/me.jpeg": "/static/media/me.fdd32094.jpeg",
     "static/media/pets_cats.jpg": "/static/media/pets_cats.da31b5f1.jpg",
     "static/media/site.png": "/static/media/site.4ddde112.png",
-    "static/media/woodworking_speaker.jpg": "/static/media/woodworking_speaker.db8630eb.jpg"
+    "static/media/woodworking_speaker.jpg": "/static/media/woodworking_speaker.db8630eb.jpg",
+    "static/media/woodworking_speaker_in_progress.jpg": "/static/media/woodworking_speaker_in_progress.4d7b5fc9.jpg",
+    "static/media/woodworking_window.jpg": "/static/media/woodworking_window.d17567db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.64f155f8.js",
-    "static/js/2.dc7101a0.chunk.js",
-    "static/css/main.900a9126.chunk.css",
-    "static/js/main.03b56064.chunk.js"
+    "static/js/2.38d5f867.chunk.js",
+    "static/css/main.c5ef552f.chunk.css",
+    "static/js/main.0b82910f.chunk.js"
   ]
 }
