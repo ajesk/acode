@@ -8,7 +8,7 @@ const AboutDetail = ({ detail }) =>
     <p>
       {detail.desc}
     </p>
-    {detail.img && <img src={detail.img} alt={detail.title} />}
+    {detail.images.map((img) => <img src={img} alt={detail.title} />)}
   </>
 
 export default AboutDetail

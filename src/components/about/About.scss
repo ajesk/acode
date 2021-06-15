@@ -3,15 +3,29 @@ ul {
 }
 
 li {
-  border-top: 0.25px solid black;
+  box-shadow: 1px 1px 1px 0 #ccc;
+  border: 0.25px solid black;
   padding: 1em;
+  margin: 0.2em;
+  
+  button {
+    border: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: large;
+    width: 100%;
+    height: 100%;
+  }
 }
+
 
 img {
   height: 300px;
+  padding: 0.25em
 }
 
 .selected {
+  box-shadow: 2px 2px 1px 0 #ccc;
   background-color: lightgray;
 }
 
@@ -30,4 +44,20 @@ img {
   .about-right {
     flex: 5;
   }
+
+  .about-detail-enter {
+    opacity: 0;
+  }
+  .about-detail-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  .about-detail-exit {
+    opacity: 1;
+  }
+  .about-detail-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+  }
 }
+

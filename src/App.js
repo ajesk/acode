@@ -12,7 +12,6 @@ import Resume from './components/resume/Resume';
 
 const App = () => {
   const [page, setPage] = useState(0);
-  const changePage = (i) => setPage(i);
   const pages = [
     { id: 0, name: '', component: <Landing /> },
     { id: 1, name: 'About', component: <About /> },
@@ -25,7 +24,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <Header setPage={changePage} pages={pages} />
+      <Header setPage={setPage} pages={pages} />
       <Content page={pages.find(pg => pg.id === page)} />
       <Footer />
     </div>
