@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import About from './components/about/About';
 import Landing from './components/landing/Landing';
 import Resume from './components/resume/Resume';
+import Deployments from './components/deployments/Deployments';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
     { id: 3, name: 'Resume', component: <Resume /> },
     { id: 4, name: 'Contact', component: <Contact /> },
     // { id: 5, name: 'Media Consumed', component: <Media /> },
+    { id: 6, name: 'Deployments', component: <Deployments/> },
   ]
 
 
