@@ -13,6 +13,11 @@ const Header = ({ setPage, pages }) => {
               {page.name}
             </button>)
       }
+      <a href="https://www.acode.io" target="_blank" rel="noreferrer noopener">
+        <button key={999} className="page-tab">
+          Blog
+        </button>
+      </a>
     </div>
   );
 }
