@@ -15,7 +15,7 @@ const Deployments = () => {
       </div>
 
       <div className="deployment">
-        <a href="https://ajesk.github.io/ff-summary" target="_blank" rel="noreferrer noopener">
+        <a href="https://ajesk.github.io/ff_summary" target="_blank" rel="noreferrer noopener">
           <h2>FF Summary</h2>
         </a>
         <p>
