@@ -10,8 +10,9 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-pdf": "^4.1.0",
-    "react-scripts": "3.4.0",
-    "react-transition-group": "^4.3.0"
+    "react-scripts": "5.0.0",
+    "react-transition-group": "^4.3.0",
+    "url": "^0.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
