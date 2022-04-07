@@ -1,19 +1,84 @@
-body {
+html, body {
+  scroll-behavior: smooth;
   margin: 0;
   font-family: apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   height: 100%;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  background: #343a40;
+a {
+  text-decoration: none;
   color: white;
-  font-size: 20px;
 }
 
-body > footer {
+a:hover {
+  text-decoration: underline;
+}
+
+#page {
+  display: flex;
+  height: 100%;
+}
+
+.nav {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0.5em;
+  background: #343a40;
+  color: white;
+  font-size: 30px;
+}
+
+.link-box {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-panel {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  max-width: fit-content;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  margin: 2em 5em;
+}
+
+p {
+  max-width: 100%;
+}
+
+.table-container {
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #343a40;
+  color: white;
+}
+
+tbody {
+  border-top: 1px solid;
+}
+
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -22,12 +87,5 @@ body > footer {
   top: 100vh;
   background: #343a40;
   color: white;
+  padding: 0.5em;
 }
-
-#content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: 5em;
-}
-
