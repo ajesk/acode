@@ -59,11 +59,6 @@ p {
   max-width: 100%;
 }
 
-.table-container {
-  border: solid black 1px;
-  border-radius: 5px;
-}
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -76,6 +71,65 @@ thead {
 
 tbody {
   border-top: 1px solid;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  top: -5px;
+  right: 105%;
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 1s;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #343a40;
+}
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-shadow: 2px 2px 1px 0 #ccc;
+  padding: 1em;
+  margin: 1em 1em 1em 0;
+}
+
+.deployment {
+  background-color: #343a40;
+  color: white;
+}
+
+.deployment > a {
+  text-decoration: underline;
+}
+
+.deployment > a:hover {
+  text-decoration: none;
 }
 
 .footer {

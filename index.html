@@ -17,7 +17,9 @@
         <a href="#top-of-page">Aaron Jeskie</a>
         <a href="#about">About</a>
         <a href="#technologies">Technologies</a>
+        <a href="#experience">Experience</a>
         <a href="#deployments">Deployments</a>
+        <a href="#accolades">Accolades</a>
         <a href="#resume">Resume</a>
         <hr style="width: 100%;" />
         <a href="https://www.acode.io">Blog</a>
@@ -37,10 +39,12 @@
             of every approach. I am also making it a personal goal to try and practice strict TDD at all times.
           </p>
           <p>
-            This site is going to kinda act like my extended resume. Most of the same stuff that I would submit to a job,
+            This site is going to kinda act like my extended resume. Most of the same stuff that I would submit to a
+            job,
             but with a little extra flourish!
           </p>
         </div>
+
         <div id="technologies">
           <hr />
           <h1>Technologies</h1>
@@ -49,7 +53,7 @@
             categorize these into my relative skill level with them.
           </p>
 
-          <div class="table-container">
+          <div class="container">
             <table>
               <thead>
                 <tr>
@@ -59,65 +63,198 @@
               </thead>
               <tbody>
                 <tr class="row">
-                  <td rowspan="5">Advanced</td>
-                  <td>Java</td>
-                </tr>
-                <tr>
-                  <td>JS</td>
-                </tr>
-                <tr>
-                  <td>SQL</td>
-                </tr>
-                <tr>
-                  <td>JS</td>
-                </tr>
-                <tr>
-                  <td>BASH</td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td rowspan="5">Learning</td>
-                  <td>Go</td>
-                </tr>
-                <tr>
-                  <td>Docker</td>
-                </tr>
-                <tr>
-                  <td>VIM</td>
-                </tr>
-                <tr>
-                  <td>JS</td>
-                </tr>
-                <tr>
+                  <td rowspan="5">Advanced / Actively Using</td>
                   <td>
-                    Scala
+                    <div class="tooltip">
+                      <img src="./resources/java.svg" alt="Java">
+                      <span class="tooltiptext">Java</span>
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/sql.png" alt="SQL">
+                      <span class="tooltiptext">SQL</span>
+
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/js.png" alt="Javascript">
+                      <span class="tooltiptext">Javascript</span>
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/bash.png" alt="Bash">
+                      <span class="tooltiptext">Bash</span>
+                    </div>
                   </td>
                 </tr>
               </tbody>
 
               <tbody>
                 <tr>
-                  <td rowspan="2">Coming soon!</td>
-                  <td>Rust</td>
+                  <td rowspan="10">Learning</td>
+                  <td>
+                    <div class="tooltip">
+                      <img src="./resources/go.png" alt="GoLang">
+                      <span class="tooltiptext">GoLang</span>
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/docker.png" alt="Docker">
+                      <span class="tooltiptext">Docker</span>
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/vim.png" alt="VIM">
+                      <span class="tooltiptext">VIM</span>
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/scala.png" alt="Scala">
+                      <span class="tooltiptext">Scala</span>
+                    </div>
+                  </td>
                 </tr>
+              </tbody>
+
+              <tbody>
                 <tr>
-                  <td>Haskell</td>
+                  <td rowspan="10">Coming soon!</td>
+                  <td>
+                    <div class="tooltip">
+                      <img class="tooltip" src="./resources/rust.png" alt="Rust">
+                      <span class="tooltiptext">Rust</span>
+                    </div>
+                    <div class="tooltip">
+                      <img src="./resources/haskell.png" alt="haskell">
+                      <span class="tooltiptext">Haskell</span>
+                    </div>
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
 
         </div>
-        <div id="resume">
+        <div id="experience">
           <hr />
-          <h1>Work</h1>
+          <h1>Experience</h1>
+          <div class="container">
+            <h2>iCIMS</h2>
+            <h3><i>Software Developer III</i></h3>
+            <ul>
+              <li>
+                Developed the highly successful Offer Management solution.
+                Contributed to the project fulfilling a full stack roll on the team.
+                Had contributions on everything from architectural direction to ReactJS UI
+                work to back end server development.
+              </li>
+              <li>
+                Key team member who brought the Clause Management sub-feature of Offer Management to fruition.
+                Architected the solution and built the server implementation for the feature.
+              </li>
+              <li>
+                Manages a local scripting library that assists other developers with day-to-day tasks.
+                This development was awarded the 2018 annual Not-To-Do award
+              </li>
+              <li>
+                Leads a "community of practice" which focuses on refactoring, code cleanliness,
+                and other practices that should be utilized as developers.
+              </li>
+              <li>
+                Mentors junior employees and seasonal interns.
+              </li>
+              <li>
+                Performs interviews with a panel of other developers to gauge candidate talent.
+              </li>
+            </ul>
+          </div>
+          <div class="container">
+            <h2>Provenir</h2>
+            <h3>Software Developer</h3>
+            <ul>
+              <li>
+                A member of the R&D team working to identify and implement uses for new ETL technologies.
+              </li>
+              <li>
+                Worked with Kafka, Spark, Redis, and multiple AWS solutions to build a data pipeline POC.
+              </li>
+            </ul>
+          </div>
+          <div class="container">
+            <h2>IPKeys Technologies</h2>
+            <h3>Junior Software Developer</h3>
+            <ul>
+              <li>
+                Developed and maintained a Java code base for an embedded Linux environment that was the core
+                solution for our demand response offering. Architected the software to provide support for multiple
+                hardware platforms.
+              </li>
+              <li>
+                Refactored several data processing applications to improve stability and performance.
+              </li>
+              <li>
+                Performed maintenance on multiple servers.
+                Oversaw many services including; Tomcat, MongoDB, and rabbitmq.
+                Created shell scripts to aid in the management/deployment
+              </li>
+            </ul>
+          </div>
         </div>
         <div id="deployments">
           <hr />
           <h1>Deployments</h1>
+          <p>Here are a number of my personal project that I have deployed and functional.</p>
+          <div class="container deployment">
+            <a href="https://ajesk.github.io/fantasy-checkdown">
+              <h2>Fantasy Checkdown</h2>
+            </a>
+            <p>A simple tool that uses the draft list from FantasyPros that best organizes you available picks into
+              representative tiers.</p>
+            <p>Built using ReactJS with MUI styling</p>
+          </div>
+          <div class="container deployment">
+            <a href="https://ajesk.github.io/ff-summary">
+              <h2>FF Summary</h2>
+            </a>
+            <p>A tool to analyze league data from the Sleeper fantasy platform and provide an insight into how good a
+              team is versus how lucky a team is</p>
+            <p>Built using ReactJS with MUI styling</p>
+          </div>
+          <div class="container deployment">
+            <h2>This Website</h2>
+            <p>This portfolio that you are currently looking at</p>
+            <p>Built using raw HTML and fancy CSS Styling</p>
+            <p>Aiming to keep this site as small as possible due to inspiration from the <a
+                href="https://512kb.club/">512kb club</a></p>
+          </div>
+
+        </div>
+
+        <div id="accolades">
+          <hr />
+          <h1>Accolades</h1>
+          <h2>Vista Equity Annual Hack-a-thon - Best Innovation Award</h2>
+          <h3>2021</h3>
+          <p>Awarded for our contribution during the Vista hack-a-thon event. I cannot post anymore details on the entry
+            at this time</p>
+
+          <h2>iCIMS Not-to-do Award</h2>
+          <h3>2018</h3>
+          <p>
+            Awarded for work on streamlining and automating the setup for local environments in order to reduce the ramp
+            up time for new employees
+            to begin working on our project
+          </p>
+        </div>
+
+        <div id="resume">
+          <hr />
+          <h1>Resume / Contact</h1>
+          <p>
+            If you are looking for a more formal version of the details I have laid out here feel free to check out and
+            download the PDF from the following link
+          </p>
+          <p>
+            If you are looking to get in touch, check out my social links in the bottom right corner of the footer down below or look for my 
+            direct contact info in my linked resume!
+          </p>
         </div>
       </div>
+
       <div class="footer">
         <div>
           <a href="https://github.com/ajesk">
